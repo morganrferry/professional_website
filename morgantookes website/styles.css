@@ -1,0 +1,120 @@
+
+body{
+	width:960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 15px;
+	font-family: noto sans;
+	background-color: rgb(102,106,134);
+}
+
+div#page {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header{
+	width:960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom:20px;
+	font-family: arial black;
+	font-size: 20px;
+	color: rgb(232,221,181);
+	text-align: center;
+	border-top: 5px solid rgb(232,221,181);
+	border-bottom: 5px solid rgb(232,221,181);
+}
+
+#page > header > p > a{
+	color: rgb(232,221,181);
+}
+
+
+#page > header > p{
+color: rgb(232,221,181);
+}
+
+#aboutme > h2{
+color: rgb(232,221,181);
+}
+
+
+#aboutme > p{
+	position: absolute;
+	width:480px;
+	padding:20px;
+	background-color: rgb(90,139,129);
+	padding-bottom: 40px;
+	padding-top: 26px;
+	margin-top: 0px;
+	border: 5px solid rgb(232,221,181);
+	font-size: 18px;
+}
+
+#aboutme > img{
+	width: 200px;
+	margin-left: 650px;
+	padding:15px;
+	background-color: rgb(90,139,129);
+}
+
+#hobbies>h2{
+	color: rgb(232,221,181);
+	margin-bottom: 0px;
+	margin-top: 50px;
+}
+
+#hobbies>p{
+	position:absolute;
+	width:480px;
+	margin-top:50;
+	padding:25px;
+	background-color: rgb(90,139,129);
+	padding-bottom: 127px;
+	border: 5px solid rgb(232,221,181);
+	font-size: 18px;
+}
+
+#hobbies > img:nth-child(3){
+	position: absolute;
+	width: 330px;
+	margin-left: 600px;
+	margin-bottom:16;
+	padding:15px;
+	background-color: rgb(90,139,129);
+}
+
+#hobbies > img:nth-child(4){
+	width: 200px;
+	margin-left: 668px;
+	margin-top:300px;
+	padding:15px;
+	background-color: rgb(90,139,129);
+}
+
+#interests>h2{
+	color: rgb(232,221,181);
+}
+
+#interests>p{
+	position:absolute;
+	width:480px;
+	margin-top: 0;
+	padding:25px;
+	background-color: rgb(90,139,129);
+	padding-bottom: 100px;
+	border: 5px solid rgb(232,221,181);
+	font-size: 18px;
+}
+
+#interests>img{
+	width: 350px;
+	margin-left: 600px;
+	padding:15px;
+	background-color: rgb(90,139,129);
+}
